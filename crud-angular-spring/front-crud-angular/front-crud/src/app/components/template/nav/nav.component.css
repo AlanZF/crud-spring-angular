@@ -1,0 +1,16 @@
+.sidenav {
+    background-color: #0275d8;
+    width: 200px;
+}
+
+.icon-nav {
+    padding-right: 5px;
+}
+
+.title-nav {
+    color: white;
+}
+
+.content {
+    background-color: white;
+}

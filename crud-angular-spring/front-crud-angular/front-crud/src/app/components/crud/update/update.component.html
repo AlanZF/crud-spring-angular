@@ -1,0 +1,22 @@
+<mat-card class="card-form">
+    <mat-card-title>Alterar usuário</mat-card-title>
+    <form class="form">
+        <mat-form-field>
+            <input matInput placeholder="Nome"
+            [(ngModel)]="user.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="E-mail"
+            [(ngModel)]="user.email" name="email">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Idade"
+            [(ngModel)]="user.age" name="age">
+        </mat-form-field>
+    </form>
+    <button mat-button color="primary" (click)="updateUser()">Salvar
+    </button>
+
+    <button mat-button color="warn" (click)="cancel()">Cancelar
+    </button>
+</mat-card>

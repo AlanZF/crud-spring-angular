@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    justify-content: right;
+
+    position: fixed; 
+    bottom: 0;
+}
+
+.text-footer {
+    font-size: 14px;
+}
+
+.dev {
+    color: red;
+}
